@@ -1,0 +1,374 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noor Abdikadir</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar is-link is-fixed-top">
+        <div class="navbar-brand">
+            <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div id="navbarExampleTransparentExample" class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item" href="#about">
+                    <span class="icon">
+                        <i class="fas fa-info"></i>
+                    </span>
+                    <span>About</span>
+                </a>
+                <a class="navbar-item" href="#services">
+                    <span class="icon">
+                        <i class="fas fa-bars"></i>
+                    </span>
+                    <span>Services</span>
+                </a>
+                <a class="navbar-item" href="#resume">
+                    <span class="icon">
+                        <i class="fas fa-file-alt"></i>
+                    </span>
+                    <span>Resume</span>
+                </a>
+                <a class="navbar-item" href="#portfolio">
+                    <span class="icon">
+                        <i class="fas fa-th-list"></i>
+                    </span>
+                    <span>Portfolio</span>
+                </a>
+                <a class="navbar-item" href="#contact">
+                    <span class="icon">
+                        <i class="fas fa-envelope"></i>
+                    </span>
+                    <span>Contact</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!--Main Body Header Container-->
+    <section class="hero is-link is-fullheight is-fullheight-with-navbar" id="background">
+        <div class="hero-body">
+            <div class="container">Hello! I am
+                <h1 class="title is-1">
+                    Noor Abdikadir
+                </h1>
+                <h2 class="subtitle is-3">
+                    Full Stack Web Developer
+                </h2>
+                <div class="container">
+                    <button class="button is-outlined"><a href="">GitHub</a></button>
+                    <button class="button is-outlined"><a href="http://">Resume</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End of body header-->
+
+    <!--About Me-->
+    <div class="hero-body">
+        <div class="container">
+            <div class="section-heading">
+                <h3 class="title is-2">About Me</h3>
+                <h4 class="subtitle is-5">My latest works</h4>
+            </div>
+        </div>
+    </div>
+
+    <!--Portfolio-->
+    <!--First Row of Projects-->
+    <div class="hero-body">
+        <div class="container">
+            <div class="section-heading">
+                <h3 class="title is-2">Portfolio</h3>
+                <h4 class="subtitle is-5">My latest works</h4>
+            </div>
+            <div class="columns is-multiline">
+                <div class="column is-one-quarter">
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                <span>Third Kid Culture</span>
+                                <span class="is-pulled-right">
+                                    <span class="tag is-default">Figma</span>
+                                </span>
+                            </p>
+                        </header>
+                        <div class="card-content">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img id="myImg" src="images/tkc.png" alt="Third Kid Culture Wireframe">
+                                </figure>
+                                <!-- The Modal to display and exit images-->
+                                <div id="myModal" class="modal">
+
+                                    <!-- The Close Button -->
+                                    <span class="close">&times;</span>
+
+                                    <!-- Modal Content (The Image) -->
+                                    <img class="modal-content" id="img01">
+
+                                    <!-- Modal Caption (Image Text) -->
+                                    <div id="caption"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-item">
+                                <span>
+                                    View Design <a href="images/tkc.png">TKC</a>
+                                </span>
+                            </p>
+                        </footer>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                <span>Password Generator</span>
+                                <span class="is-pulled-right">
+                                    <span class="tag is-default">HTML/CSS/JS</span>
+
+                                </span>
+                            </p>
+                        </header>
+                        <div class="card-content">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img src="images/password.png" alt="Image">
+                                </figure>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-item">
+                                <span>
+                                    <a href="https://noora1125.github.io/password/" target="blank_">Live Demo </a>
+                                </span>
+                            </p>
+                            <p class="card-footer-item">
+                                <span>
+                                    View Code <a href="https://github.com/NoorA1125/password">Github</a>
+                                </span>
+                            </p>
+                        </footer>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                <span>Good Dev.</span>
+                                <span class="is-pulled-right">
+                                    <span class="tag is-default">HTML/CSS/JS</span>
+
+                                </span>
+                            </p>
+                        </header>
+                        <div class="card-content">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img id="myImg" src="images/portfolio.jpg" alt="Minimalistic Portfolio - Lost the code lol">
+                                    <!-- The Modal to display and exit images-->
+                                </figure>
+                                <div id="myModal" class="modal">
+
+                                    <!-- The Close Button -->
+                                    <span class="close">&times;</span>
+
+                                    <!-- Modal Content (The Image) -->
+                                    <img class="modal-content" id="img01">
+
+                                    <!-- Modal Caption (Image Text) -->
+                                    <div id="caption"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-item">
+                                <span>
+                                    View Design <a href="images/portfolio.jpg">Profile</a>
+                                </span>
+                            </p>
+                        </footer>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                <span>Meals & Tails</span>
+                                <span class="is-pulled-right">
+                                    <span class="tag is-default">HTML/Bulma/JS</span>
+
+                                </span>
+                            </p>
+                        </header>
+                        <div class="card-content">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img src="images/meats&tails.png" alt="Image">
+                                </figure>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-item">
+                                <span>
+                                    <a href="https://mcolumbusua21.github.io/Project1/">Live Demo </a>
+                                </span>
+                            </p>
+                            <p class="card-footer-item">
+                                <span>
+                                    View Code <a href="https://github.com/mcolumbusua21/Project1">Github</a>
+                                </span>
+                            </p>
+                        </footer>
+                    </div>
+                </div>
+
+                <!--Second Row of Projects-->
+                <div class="column is-one-quarter">
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                <span>Weather App</span>
+                                <span class="is-pulled-right">
+                                    <span class="tag is-default">Weather API</span>
+
+                                </span>
+                            </p>
+                        </header>
+                        <div class="card-content">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img src="images/weatherapp.png" alt="Image">
+                                </figure>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-item">
+                                <span>
+                                    <a href="https://noora1125.github.io/WeatherApp/">Live Demo</a>
+                                </span>
+                            </p>
+                            <p class="card-footer-item">
+                                <span>
+                                    View Code <a href="https://github.com/NoorA1125/WeatherApp">Github</a>
+                                </span>
+                            </p>
+                        </footer>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                <span>Portfolio Designs</span>
+                                <span class="is-pulled-right">
+                                    <span class="tag is-default">HTML/CSS/JS</span>
+
+                                </span>
+                            </p>
+                        </header>
+                        <div class="card-content">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img src="images/port-des2.png" alt="Image">
+                                </figure>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-item">
+                                <span>
+                                    <a href="https://noora1125.github.io/Portflio/">Live Demo</a>
+                                </span>
+                            </p>
+                            <p class="card-footer-item">
+                                <span>
+                                    View Code <a href="https://github.com/NoorA1125/Portflio">Github</a>
+                                </span>
+                            </p>
+                        </footer>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                <span>JS Quiz</span>
+                                <span class="is-pulled-right">
+                                    <span class="tag is-default">HTML/CSS/JS</span>
+
+                                </span>
+                            </p>
+                        </header>
+                        <div class="card-content">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img src="images/quiz.png" alt="Image">
+                                </figure>
+
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-item">
+                                <span>
+                                    <a href="https://twitter.com/codinghorror/status/506010907021828096">Live Demo</a>
+                                </span>
+                            </p>
+                            <p class="card-footer-item">
+                                <span>
+                                    View Code <a href="#">Github</a>
+                                </span>
+                            </p>
+                        </footer>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                <span>Day Planner</span>
+                                <span class="is-pulled-right">
+                                    <span class="tag is-default">Third Party APIs</span>
+                                </span>
+                            </p>
+                        </header>
+                        <div class="card-content">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img src="images/dayplanner.png" alt="Image">
+                                </figure>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-item">
+                                <span>
+                                    <a href="https://noora1125.github.io/day-planer/">Live Demo</a>
+                                </span>
+                            </p>
+                            <p class="card-footer-item">
+                                <span>
+                                    View Code <a href="#">Github</a>
+                                </span>
+                            </p>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+<script src="script.js"></script>
+</body>
+
+</html>
