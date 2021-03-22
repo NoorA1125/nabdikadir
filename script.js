@@ -19,7 +19,17 @@ span.onclick = function() {
   modal.style.display = "none";
 }
 
-/********************************* End of Modal *********************************/
+/**************************************** End of Modal ****************************************/
 
 
 /********************************* Change nav color on scroll *********************************/
+var myNav = document.querySelector('.navbar');
+window.onscroll = function () { 
+    "use strict";
+    if (document.body.scrollTop >= 800 ) {
+        myNav.style.backgroundColor = "#203354";
+    } 
+    else {
+        myNav.style.backgroundColor = "transparent";
+    }
+};

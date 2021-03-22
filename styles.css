@@ -22,12 +22,23 @@ section#background.is-link.is-fullheight.is-fullheight-with-navbar{
     background-size: cover;
 }
 
-nav.navbar.is-link.is-fixed-top {
+ nav.navbar.is-link.is-fixed-top {
     background-color: transparent;
 }
 
-.navbar.scroll {
-    background-color: red;
+
+.pro-pic {
+    max-width: 200px;
+    width: 100%;
+    max-height: 300px;
+    height: 100%;
+    border-radius: 50%
+}
+
+div.container.about-me#text {
+    text-align: center;
+    max-width: 900px;
+    width: 100%;
 }
 
 /* Image Modal*/
@@ -72,6 +83,14 @@ nav.navbar.is-link.is-fixed-top {
     padding: 10px 0;
     height: 150px;
   }
+
+  div.media-content {
+      display: inline-flex;
+  }
+
+  div.column.is-half > p {
+      margin: 2em;
+  }
   
   /* Add Animation - Zoom in the Modal */
   .modal-content, #caption {
@@ -106,5 +125,11 @@ nav.navbar.is-link.is-fixed-top {
   @media only screen and (max-width: 700px){
     .modal-content {
       width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 700px){
+    div.media-content {
+        display: inline-block;
     }
   }
